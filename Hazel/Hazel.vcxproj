@@ -152,6 +152,10 @@
     <ClInclude Include="Application.h" />
     <ClInclude Include="Core.h" />
     <ClInclude Include="EntryPoint.h" />
+    <ClInclude Include="Events\ApplicationEvent.h" />
+    <ClInclude Include="Events\Event.h" />
+    <ClInclude Include="Events\KeyEvent.h" />
+    <ClInclude Include="Events\MouseEvent.h" />
     <ClInclude Include="Hazel.h" />
     <ClInclude Include="Log.h" />
     <ClInclude Include="vendor\spdlog\bench\utils.h" />

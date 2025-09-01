@@ -34,6 +34,9 @@
     <Filter Include="vendor\spdlog\tests">
       <UniqueIdentifier>{ADA32A34-1905-0842-A272-4EF40ED33E01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{ef6017f2-553b-4004-8d41-997494bcb080}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
@@ -364,6 +367,18 @@
     </ClInclude>
     <ClInclude Include="vendor\spdlog\tests\utils.h">
       <Filter>vendor\spdlog\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\ApplicationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\KeyEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\MouseEvent.h">
+      <Filter>Events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
